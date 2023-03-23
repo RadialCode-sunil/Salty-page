@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600&family=Sen:wght@700&display=swap');
+
+/* font-family */
+.ff_Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ff_Inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.ff_Sen {
+    font-family: 'Sen', sans-serif;
+}
+
+/* root */
+:root {
+    /* font_size */
+    --fs-11xl: 84px;
+    --fs-10xl: 56px;
+    --fs-9xl: 46px;
+    --fs-8xl: 40px;
+    --fs-7xl: 30px;
+    --fs-6xl: 28px;
+    --fs-5xl: 26px;
+    --fs-4xl: 24px;
+    --fs-3xl: 21px;
+    --fs-2xl: 20px;
+    --fs-xl: 19px;
+    --fs-lg: 18px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    --fs-ss: 12px;
+
+
+
+    /* color */
+
+    --color-yellow: #FFE2AA;
+    --color-darkyellow: #FFCB82;
+    --color-lightyellow: #F5F5F5;
+    --color-lightyellow2: #FAF8ED;
+    --color-lightblue: #2E476B;
+    --color-orange: #F66F4D;
+    --color-lightblack: #2D3134;
+    --color-gray: #5B5F62;
+    --color-lightgray: #9498A4;
+    --color-lightgray2: #676A6C;
+    --color-white: #FFFFFF;
+    --color-lightwhite: #FDFEFF;
+
+}
+
+/* color */
+
+.yellow {
+    color: var(--color-yellow);
+}
+.bg_darkyellow {
+    background: var(--color-darkyellow);
+}
+.bg_lightyellow {
+    background: var(--color-lightyellow);
+}
+
+.bg_lightyellow2 {
+    background: var(--color-lightyellow2);
+}
+
+.lightblue {
+    color: var(--color-lightblue);
+}
+
+.orange {
+    color: var(--color-orange);
+}
+.bg_orange {
+    background: var(--color-orange);
+}
+
+.lightblack {
+    color: var(--color-lightblack);
+}
+.bg_lightblack {
+    background: var(--color-lightblack);
+}
+.gray {
+    color: var(--color-gray);
+}
+.lightgray {
+    color: var(--color-lightgray);
+}
+.lightgray2 {
+    color: var(--color-lightgray2);
+}
+.white {
+    color: var(--color-white);
+}
+.lightwhite {
+    color: var(--color-lightwhite);
+}
+
+
+/* font_size */
+
+.fs_11xl {
+    font-size: var(--fs-11xl);
+}
+
+.fs_10xl {
+    font-size: var(--fs-10xl);
+}
+
+.fs_9xl {
+    font-size: var(--fs-9xl);
+}
+
+.fs_8xl {
+    font-size: var(--fs-8xl);
+}
+
+.fs_7xl {
+    font-size: var(--fs-7xl);
+}
+
+.fs_6xl {
+    font-size: var(--fs-6xl);
+}
+
+.fs_5xl {
+    font-size: var(--fs-5xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_ss {
+    font-size: var(--fs-ss);
+}
+
+
+/* font-weight */
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
