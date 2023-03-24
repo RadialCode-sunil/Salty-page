@@ -12,6 +12,7 @@
     z-index: 2;
 }
 
+
 /* nav */
 
 .nav_btn {
@@ -86,17 +87,121 @@
     width: 54px;
 }
 
+/*  */
 
+.Categories_img_w {
+    height: 230px;
+    width: 170px;
+    border-radius: 85px;
+}
 
+.Categories_btn {
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    border: 1px solid #2D3134;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    transition: all 0.6s linear;
+}
 
+.Categories_btn:hover {
+    border: 1px solid #2D3134;
+    background-color: #2D3134;
+}
 
+.Categories_btn:hover path {
+    stroke: var(--color-white)
+}
 
+.Categories_Visite {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.6s linear;
+}
+
+.Categories_img:hover .Categories_Visite {
+    opacity: 1;
+}
+
+/* Experience */
+.Experience_box_600 {
+    height: 218px;
+    width: 140px;
+    border-radius: 14px;
+    background: var(--color-white);
+    bottom: 80px;
+    left: -30px;
+    opacity: 0;
+    transition: all 0.6s linear;
+}
+
+.Experience_img:hover .Experience_box_600 {
+    opacity: 1;
+}
+
+.Experience_box_5000 {
+    height: 92px;
+    width: 171px;
+    border-radius: 10px;
+    background: var(--color-white);
+    opacity: 0;
+    transition: all 0.6s linear;
+    bottom: 0;
+    right: 0;
+}
+
+.Experience_img:hover .Experience_box_5000 {
+    opacity: 1;
+}
+
+.Experience_box_12K {
+    height: 178px;
+    max-width: 166px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.7);
+    transition: all 0.6s linear;
+}
+
+.Experience_box_12K:hover {
+    background: var(--color-orange);
+}
+
+.Experience_box_12K:hover .text_white_hover {
+    color: var(--color-white) !important;
+}
+
+/* Find */
+.Find_box {
+    background: var(--color-lightyellow2);
+    border: 2px solid var(--color-white);
+    box-shadow: 0px 24px 90px rgba(192, 188, 161, 0.22);
+    border-radius: 16px;
+    padding: 12px;
+}
+
+.Find_box_btn {
+    border: 1px solid var(--color-lightblack);
+    border-radius: 46px;
+    padding: 10px 15px;
+    transition: all 0.5s linear;
+}
+
+.Find_box_btn:hover {
+    background: var(--color-lightblack);
+    color: var(--color-white) !important;
+}
 
 
 
 @media (min-width:992px) {
     .hero_box {
         max-width: 550px;
+    }
+
+    .Categories_p_w_lg {
+        width: 370px;
     }
 }
 
@@ -120,11 +225,24 @@
         left: 0;
     }
 
+    .Experience_box_5000 {
+        bottom: 0;
+        right: 0;
+    }
+
+}
+
+@media (min-width:768px) {
+    .Find_h2_w_md {
+        width: 400px;
+    }
+
 }
 
 @media (max-width:576px) {
     .hero_box {
-     width: 200px;
+        max-width: 200px;
+        padding: 15px;
     }
 
 }
