@@ -44,6 +44,7 @@
     --color-orange: #F66F4D;
     --color-lightblack: #2D3134;
     --color-gray: #5B5F62;
+    --color-gray2: #939597;
     --color-lightgray: #9498A4;
     --color-lightgray2: #676A6C;
     --color-white: #FFFFFF;
@@ -91,6 +92,9 @@
 
 .gray {
     color: var(--color-gray) !important;
+}
+.gray2 {
+    color: var(--color-gray2) !important;
 }
 
 .lightgray {
