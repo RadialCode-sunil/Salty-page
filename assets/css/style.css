@@ -98,6 +98,22 @@
     .hero_box {
         max-width: 550px;
     }
+
+    .receiv_wdth_lg {
+        height: 52px;
+        width: 415px;
+
+    }
+
+    .customer_wdth_lg {
+        height: 132px;
+        width: 467px;
+    }
+
+    .enjoy_wdth_lg {
+        height: 52px;
+        width: 141px;
+    }
 }
 
 @media (max-width:992px) {
@@ -124,7 +140,7 @@
 
 @media (max-width:576px) {
     .hero_box {
-     width: 200px;
+        width: 200px;
     }
 
 }
