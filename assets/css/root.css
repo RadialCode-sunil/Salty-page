@@ -191,9 +191,47 @@
     font-weight: 400;
 }
 
+<<<<<<< HEAD
 @media (min-width:992px) {
     .customer_wdth_lg {
         height: 132px;
         width: 467px;
+=======
+
+@media (max-width:992px) {
+
+    /* root */
+    :root {
+        /* font_size */
+        --fs-11xl: 75px;
+        --fs-10xl: 50px;
+        --fs-9xl: 40px;
+        --fs-8xl: 35px;
+        --fs-7xl: 28px;
+        --fs-6xl: 25px;
+        --fs-5xl: 24px;
+        --fs-4xl: 23px;
+    }
+}
+
+@media (max-width:576px) {
+
+    /* root */
+    :root {
+        /* font_size */
+        --fs-11xl: 40px;
+        --fs-10xl: 30px;
+        --fs-9xl: 35px;
+        --fs-8xl: 25px;
+        --fs-7xl: 26px;
+        --fs-6xl: 23px;
+        --fs-5xl: 21px;
+        --fs-4xl: 20px;
+        --fs-3xl: 18px;
+        --fs-2xl: 16px;
+        --fs-xl: 16px;
+        --fs-lg: 15px;
+        --fs-md: 15px;
+>>>>>>> 62060c3d0aa3e207a0efebb7189179a7eead5b1a
     }
 }
