@@ -56,9 +56,11 @@
 .yellow {
     color: var(--color-yellow) !important;
 }
+
 .bg_darkyellow {
     background: var(--color-darkyellow) !important;
 }
+
 .bg_lightyellow {
     background: var(--color-lightyellow) !important;
 }
@@ -74,6 +76,7 @@
 .orange {
     color: var(--color-orange) !important;
 }
+
 .bg_orange {
     background: var(--color-orange);
 }
@@ -81,21 +84,27 @@
 .lightblack {
     color: var(--color-lightblack) !important;
 }
+
 .bg_lightblack {
     background: var(--color-lightblack);
 }
+
 .gray {
     color: var(--color-gray) !important;
 }
+
 .lightgray {
     color: var(--color-lightgray) !important;
 }
+
 .lightgray2 {
     color: var(--color-lightgray2) !important;
 }
+
 .white {
     color: var(--color-white) !important;
 }
+
 .lightwhite {
     color: var(--color-lightwhite) !important;
 }
@@ -180,4 +189,11 @@
 
 .fw_400 {
     font-weight: 400;
+}
+
+@media (min-width:992px) {
+    .customer_wdth_lg {
+        height: 132px;
+        width: 467px;
+    }
 }
