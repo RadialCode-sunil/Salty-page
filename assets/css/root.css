@@ -195,6 +195,12 @@
     font-weight: 400;
 }
 
+<<<<<<< HEAD
+@media (min-width:992px) {
+    .customer_wdth_lg {
+        height: 132px;
+        width: 467px;
+=======
 
 @media (max-width:992px) {
 
@@ -230,5 +236,6 @@
         --fs-xl: 16px;
         --fs-lg: 15px;
         --fs-md: 15px;
+>>>>>>> 62060c3d0aa3e207a0efebb7189179a7eead5b1a
     }
 }

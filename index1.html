@@ -9,6 +9,15 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- SLICK MIN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- SLICK THEME MIN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/style1.css">
@@ -17,15 +26,15 @@
 </head>
 
 <body>
-    <div class="bg_lightyellow2">
-        <div class="container py-3">
+    <section class="bg_lightyellow2">
+        <div class="container py-5">
             <div class="text-center ">
                 <h2 class="ff_Inter fw_600 fs_10xl lightblack">Top Destinations</h2>
                 <p class="ff_Inter fw_400 fs_md lightgray pt-2">Sost Brilliant reasons Entrada should be your
                     one-stop-shop!
                 </p>
                 <div>
-                    <ul class="d-flex justify-content-center pt-3">
+                    <ul class="d-flex justify-content-center py-3">
                         <li><a class="ff_Poppins fw_400 lightblack d fs_sm london_btn">London</a></li>
                         <li><a class="ff_Poppins fw_400 lightblack d fs_sm ms-3 london_btn">Bangkok</a></li>
                         <li><a class="ff_Poppins fw_400 lightblack d fs_sm ms-3 london_btn">England</a></li>
@@ -33,17 +42,105 @@
                         <li><a class="ff_Poppins fw_400 lightblack d fs_sm ms-3 london_btn">Italy</a></li>
                     </ul>
                 </div>
-                <div>
-                    <div>
-                        <img src="/assets/img/png/top_img_1.png" alt="">
-                        <a class="ff_Inter fw_500 lightblack fs_sm nbr_btn">3.5</a>
-                        <p>Vientam</p>
-                        <p>Worefall</p>
+                <div class="d-grid grid_gap pt-5">
+                    <div class="grid_img_1">
+                        <img class="w-100 h-100" src="/assets/img/png/top_img_1.png" alt="">
+                    </div>
+                    <div class="grid_img_2">
+                        <img class="w-100 h-100" src="/assets/img/png/top_img_2.png" alt="">
+                    </div>
+                    <div class="grid_img_3">
+                        <img class="w-100 h-100" src="/assets/img/png/top_img_3.png" alt="">
+                    </div>
+                    <div class="grid_img_4">
+                        <img class="w-100 h-100" src="/assets/img/png/top_img4.png" alt="">
+                    </div>
+                    <div class="grid_img_5">
+                        <img class="w-100 h-100" src="/assets/img/png/top_img_5.png" alt="">
+                    </div>
+                    <div class="grid_img_6">
+                        <img class="w-100 h-100" src="/assets/img/png/top_img_6.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<slider_section -->
+    <section class="bg_lightyellow2">
+        <div class="container">
+            <div class="row py-5 text-center text-md-start">
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid" src="/assets/img/png/customer_cameraman.png" alt="">
+                </div>
+                <div class="col-12 col-lg-6 ">
+                    <hr class="customer_hr mx-auto mx-md-0">
+                    <h3 class="ff_Inter fw_600 fs_10xl lightblack customer_wdth_lg">A customer said about us:
+                    </h3>
+
+                    <div class="position-relative">
+                        <div class="row slick_slider">
+                            <!-- 1 -->
+                            <div class="col-6">
+                                <div class="slider_box">
+                                    <p class="ff_Inter fw_400 lightgray fs_lg">Salty helped me a lot in finding the best
+                                        place
+                                        for
+                                        our first outdoor adventure trip. They
+                                        responded very quickly and
+                                        gave me a detailed account of the place—its history, as well as its best
+                                        features.
+                                    </p>
+                                    <span><img class="mx-auto" src="/assets/img/png/camera_5star.png" alt=""></span>
+                                    <div class="d-flex flex-column">
+                                        <p class="ff_Inter fw_500 fs_2xl lightblack mb-0 pt-3">Andrew Sarma</p>
+                                        <p class="ff_Inter fw_400 fs_ss lightblack mb-0">Enterpreneur</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class=" col-12 col-lg-6">
+                                <div class="slider_box">
+                                    <p class="ff_Inter fw_400 lightgray fs_lg">Salty helped me a lot in finding the best
+                                        place
+                                        for
+                                        our first outdoor adventure trip. They
+                                        responded very quickly and
+                                        gave me a detailed account of the place—its history, as well as its best
+                                        features.
+                                    </p>
+                                    <span><img src="/assets/img/png/camera_5star.png" alt=""></span>
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <p class="ff_Inter fw_500 fs_2xl lightblack mb-0 pt-3">Andrew Sarma</p>
+                                        <p class="ff_Inter fw_400 fs_ss lightblack mb-0">Enterpreneur</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end position-absolute customer_btn"> 
+                            <button class="back slider_btn d-none d-md-block " type="button">
+                                <span class="fs_2xl fw_700 slider_btn_arrow"><span class=""><svg width="8" height="14"
+                                            viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7 13L1 7L7 1" stroke="#2D3134" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></span>
+                                </span>
+                            </button>
+                            <button class="next slider_btn d-none d-md-block ms-3" type="button">
+                                <span class="fs_2xl fw_700 "><span class="black"><svg width="8" height="14"
+                                            viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 13L7 7L1 1" stroke="#2D3134" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
 
@@ -70,6 +167,46 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <!--L QUERRY MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--SLICK MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+    <script>
+
+        $('.slick_slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrow: true,
+            nextArrow: ".next",
+            prevArrow: ".back",
+
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+
+            ]
+        });
+    </script>
+
 
 </body>
 
