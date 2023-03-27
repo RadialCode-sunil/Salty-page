@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Animate-style hero -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -63,7 +65,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="ff_Poppins fw_500 fs_md orange nav_btn d-lg-none">
+                                <a href="#" class="ff_Poppins fw_500 fs_md orange nav_btn d-lg-none position-relative overflow-hidden">
                                     Book Now
                                     <span class="ps-1">
                                         <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
@@ -73,6 +75,8 @@
                                                 fill="#F66F4D" />
                                         </svg>
                                     </span>
+                        
+
 
                                 </a>
                             </li>
@@ -83,9 +87,18 @@
                         <span class="nav_line"></span>
                         <span class="nav_line"></span>
                     </span>
-                    <a href="#" class="ff_Poppins fw_500 fs_md orange nav_btn d-inline-block d-none d-lg-block">
+                    <a href="#"
+                        class="ff_Poppins fw_500 fs_md orange nav_btn d-inline-block d-none d-lg-block position-relative overflow-hidden">
                         Book Now
-                        <span class="ps-1">
+                        <span class="ps-1 nav_btn_svg1">
+                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 8.45744L4.04598 10.2128L13.4253 2.87235L6.06897 11.1702V15L8.82758 11.9681L13.4253 13.5638L16 0L0 8.45744Z"
+                                    fill="#F66F4D" />
+                            </svg>
+                        </span>
+                        <span class="ps-1 nav_btn_svg2">
                             <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -102,10 +115,12 @@
         <div class="container d-flex flex-grow-1 align-items-center" id="Home">
             <div class="row align-items-center flex-column-reverse flex-lg-row">
                 <div class="col-12 col-lg-6">
-                    <h1 class="ff_Sen fw_700 fs_11xl lightblack text-center text-lg-start pt-4 pt-lg-0">Discover the
-                        Best Lovely
-                        Places</h1>
-                    <p class="ff_Inter fw_400 fs_lg gray pe-lg-5 text-center text-lg-start">
+                    <h1
+                        class="ff_Sen fw_700 fs_11xl lightblack text-center text-lg-start pt-4 pt-lg-0 lh-1 animate__heartBeat">
+                        Discover
+                        the
+                        Best Lovely Places</h1>
+                    <p class="ff_Inter fw_400 fs_lg gray pe-lg-5 text-center text-lg-start pt-3">
                         Plan and book your perfect trip with expert advice, travel tips, destination information and
                         inspiration from us.
                     </p>
@@ -185,61 +200,55 @@
                     <div class="">
                         <div class="d-flex flex-column align-items-center position-relative Categories_img">
                             <img class="Categories_img_w" src="./assets/img/png/beach.png" alt="Beach">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
                         </div>
                         <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Beach</p>
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="">
-                        <div class="d-flex flex-column align-items-center position-relative Categories_img">
-                            <img class="Categories_img_w" src="./assets/img/png/desert.png" alt="Desert">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
-                        </div>
-                        <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Desert</p>
+
+                    <div class="d-flex flex-column align-items-center position-relative Categories_img">
+                        <img class="Categories_img_w" src="./assets/img/png/desert_2.png" alt="Desert">
                     </div>
+                    <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Desert</p>
+
                 </div>
                 <div class="col-3">
-                    <div class="">
-                        <div class="d-flex flex-column align-items-center position-relative Categories_img">
-                            <img class="Categories_img_w" src="./assets/img/png/mountaion.png" alt="Mountain">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
-                        </div>
-                        <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Mountain</p>
+
+                    <div class="d-flex flex-column align-items-center position-relative Categories_img">
+                        <img class="Categories_img_w" src="./assets/img/png/mountaion.png" alt="Mountain">
                     </div>
+                    <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Mountain</p>
+
                 </div>
                 <div class="col-3">
-                    <div class="">
-                        <div class="d-flex flex-column align-items-center position-relative Categories_img">
-                            <img class="Categories_img_w" src="./assets/img/png/temple.png" alt="Temple">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
-                        </div>
-                        <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Temple</p>
+
+                    <div class="d-flex flex-column align-items-center position-relative Categories_img">
+                        <img class="Categories_img_w" src="./assets/img/png/temple.png" alt="Temple">
+
                     </div>
+                    <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Temple</p>
+
                 </div>
                 <div class="col-3">
-                    <div class="">
-                        <div class="d-flex flex-column align-items-center position-relative Categories_img">
-                            <img class="Categories_img_w" src="./assets/img/png/tower.png" alt="Tower">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
-                        </div>
-                        <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Tower</p>
+
+                    <div class="d-flex flex-column align-items-center position-relative Categories_img">
+                        <img class="Categories_img_w" src="./assets/img/png/tower.png" alt="Tower">
                     </div>
+                    <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Tower</p>
+
                 </div>
                 <div class="col-3">
-                    <div class="">
-                        <div class="d-flex flex-column align-items-center position-relative Categories_img">
-                            <img class="Categories_img_w" src="./assets/img/png/pyramid.png" alt="Pyramid">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
-                        </div>
-                        <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Pyramid</p>
+
+                    <div class="d-flex flex-column align-items-center position-relative Categories_img">
+                        <img class="Categories_img_w" src="./assets/img/png/pyramid.png" alt="Pyramid">
                     </div>
+                    <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Pyramid</p>
+
                 </div>
                 <div class="col-3">
                     <div class="">
                         <div class="d-flex flex-column align-items-center position-relative Categories_img">
                             <img class="Categories_img_w" src="./assets/img/png/beach.png" alt="Beach">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
                         </div>
                         <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Beach</p>
                     </div>
@@ -247,8 +256,7 @@
                 <div class="col-3">
                     <div class="">
                         <div class="d-flex flex-column align-items-center position-relative Categories_img">
-                            <img class="Categories_img_w" src="./assets/img/png/desert.png" alt="Desert">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
+                            <img class="Categories_img_w" src="./assets/img/png/desert_2.png" alt="Desert">
                         </div>
                         <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Desert</p>
                     </div>
@@ -257,7 +265,6 @@
                     <div class="">
                         <div class="d-flex flex-column align-items-center position-relative Categories_img">
                             <img class="Categories_img_w" src="./assets/img/png/mountaion.png" alt="Mountain">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
                         </div>
                         <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Mountain</p>
                     </div>
@@ -266,7 +273,6 @@
                     <div class="">
                         <div class="d-flex flex-column align-items-center position-relative Categories_img">
                             <img class="Categories_img_w" src="./assets/img/png/temple.png" alt="Temple">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
                         </div>
                         <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Temple</p>
                     </div>
@@ -275,7 +281,6 @@
                     <div class="">
                         <div class="d-flex flex-column align-items-center position-relative Categories_img">
                             <img class="Categories_img_w" src="./assets/img/png/tower.png" alt="Tower">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
                         </div>
                         <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Tower</p>
                     </div>
@@ -284,7 +289,6 @@
                     <div class="">
                         <div class="d-flex flex-column align-items-center position-relative Categories_img">
                             <img class="Categories_img_w" src="./assets/img/png/pyramid.png" alt="Pyramid">
-                            <p class="ff_Inter fw_600 fs_2xl white position-absolute Categories_Visite">Visite</p>
                         </div>
                         <p class="ff_Inter fw_500 fs_5xl lightblack text-center pt-2">Pyramid</p>
                     </div>
@@ -363,9 +367,9 @@
     </section>
     <!-- Find -->
     <section class="bg_lightyellow2 overflow-hidden py-lg-5" id="Destinations">
-        <div class="container py-4 py-lg-5">
+        <div class="container pt-5  py-lg-5">
             <div class="d-flex justify-content-between align-items-center text-center">
-                <h2 class="ff_Inter fw_600 fs_10xl lightblack Find_h2_w_md text-center text-md-start pb-4">Find Popular
+                <h2 class="ff_Inter fw_600 fs_10xl lightblack Find_h2_w_md text-center text-md-start pb-2">Find Popular
                     Destination</h2>
 
                 <div class="d-none d-md-block ">
@@ -394,8 +398,10 @@
             <div class="row Find_slider ms-xxl-5">
 
                 <div class="col-3 m-2">
-                    <div class="Find_box overflow-hidden">
-                        <img class="w-100" src="./assets/img/png/machu_picchu.png" alt="Machu Picchu, Peru">
+                    <div class="Find_box ">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="./assets/img/png/machu_picchu.png" alt="Machu Picchu, Peru">
+                        </div>
                         <p class="ff_Inter fw_600 fs_4xl lightblack mb-0 pt-2">Machu Picchu, Peru</p>
                         <p class="ff_Inter fw_400 fs_sm gray">Machu Picchu, Peru</p>
                         <div class="d-flex justify-content-between align-items-center">
@@ -408,8 +414,10 @@
                     </div>
                 </div>
                 <div class="col-3 m-2">
-                    <div class="Find_box overflow-hidden">
-                        <img class="w-100" src="./assets/img/png/the_grand.png" alt="The Grand Canyon, Arizona">
+                    <div class="Find_box ">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="./assets/img/png/the_grand.png" alt="The Grand Canyon, Arizona">
+                        </div>
                         <p class="ff_Inter fw_600 fs_4xl lightblack mb-0 pt-2">The Grand Canyon, Arizona</p>
                         <p class="ff_Inter fw_400 fs_sm gray">Mountain Hiking Tour</p>
                         <div class="d-flex justify-content-between align-items-center">
@@ -422,8 +430,10 @@
                     </div>
                 </div>
                 <div class="col-3 m-2">
-                    <div class="Find_box overflow-hidden">
-                        <img class="w-100" src="./assets/img/png/rome_italy.png" alt="Rome, Italy">
+                    <div class="Find_box ">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="./assets/img/png/rome_italy.png" alt="Rome, Italy">
+                        </div>
                         <p class="ff_Inter fw_600 fs_4xl lightblack mb-0 pt-2">Rome, Italy</p>
                         <p class="ff_Inter fw_400 fs_sm gray">Mountain Hiking Tour</p>
                         <div class="d-flex justify-content-between align-items-center">
@@ -436,8 +446,10 @@
                     </div>
                 </div>
                 <div class="col-3 m-2">
-                    <div class="Find_box overflow-hidden">
-                        <img class="w-100" src="./assets/img/png/mountain_hiking.png" alt="Mountain Hiking Tour">
+                    <div class="Find_box">
+                        <div class=" overflow-hidden">
+                            <img class="w-100" src="./assets/img/png/mountain_hiking.png" alt="Mountain Hiking Tour">
+                        </div>
                         <p class="ff_Inter fw_600 fs_4xl lightblack mb-0 pt-2">Mountain Hiking Tour</p>
                         <p class="ff_Inter fw_400 fs_sm gray">Mountain Hiking Tour</p>
                         <div class="d-flex justify-content-between align-items-center">
@@ -477,55 +489,55 @@
                     </div>
                 </div>
                 <div class="d-grid grid_gap pt-5 ">
-                    <div class="grid_img_1 position-relative img_hover">
-                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn top_hover"
+                    <div class="grid_img_1 position-relative">
+                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn "
                             href="#">3.5</a>
-                        <div class="position-absolute bottom-0 ps-4 opacity top_hover">
+                        <div class="position-absolute bottom-0 ps-4  ">
                             <p class="ff_Inter fw_600 fs_2xl white mb-0">Vientam</p>
                             <p class="ff_Inter fw_400 fs_sm white text-start">Worefall</p>
                         </div>
                         <img class="w-100 h-100" src="/assets/img/png/top_img_1.png" alt="">
                     </div>
-                    <div class="grid_img_2 position-relative img_hover">
-                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn top_hover"
+                    <div class="grid_img_2 position-relative ">
+                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn"
                             href="#">3.5</a>
-                        <div class="position-absolute bottom-0 ps-4 opacity top_hover">
+                        <div class="position-absolute bottom-0 ps-4 ">
                             <p class="ff_Inter fw_600 fs_2xl white mb-0">Vientam</p>
                             <p class="ff_Inter fw_400 fs_sm white text-start">Worefall</p>
                         </div>
                         <img class="w-100 h-100" src="/assets/img/png/top_img_2.png" alt="">
                     </div>
-                    <div class="grid_img_3 position-relative img_hover">
-                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn top_hover"
+                    <div class="grid_img_3 position-relative ">
+                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn "
                             href="#">3.5</a>
-                        <div class="position-absolute bottom-0 ps-4 opacity top_hover">
+                        <div class="position-absolute bottom-0 ps-4  ">
                             <p class="ff_Inter fw_600 fs_2xl white mb-0">Vientam</p>
                             <p class="ff_Inter fw_400 fs_sm white text-start">Worefall</p>
                         </div>
                         <img class="w-100 h-100" src="/assets/img/png/top_img_3.png" alt="">
                     </div>
-                    <div class="grid_img_4 position-relative img_hover">
-                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn top_hover"
+                    <div class="grid_img_4 position-relative">
+                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn "
                             href="#">3.5</a>
-                        <div class="position-absolute bottom-0 ps-4 opacity top_hover">
+                        <div class="position-absolute bottom-0 ps-4 ">
                             <p class="ff_Inter fw_600 fs_2xl white mb-0">Vientam</p>
                             <p class="ff_Inter fw_400 fs_sm white text-start">Worefall</p>
                         </div>
                         <img class="w-100 h-100" src="/assets/img/png/top_img4.png" alt="">
                     </div>
-                    <div class="grid_img_5 position-relative img_hover">
-                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn top_hover"
+                    <div class="grid_img_5 position-relative">
+                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn"
                             href="#">3.5</a>
-                        <div class="position-absolute bottom-0 ps-4 opacity top_hover">
+                        <div class="position-absolute bottom-0 ps-4 ">
                             <p class="ff_Inter fw_600 fs_2xl white mb-0">Vientam</p>
                             <p class="ff_Inter fw_400 fs_sm white text-start">Worefall</p>
                         </div>
                         <img class="w-100 h-100" src="/assets/img/png/top_img_5.png" alt="">
                     </div>
-                    <div class="grid_img_6 position-relative img_hover">
-                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn top_hover"
+                    <div class="grid_img_6 position-relative">
+                        <a class="ff_Inter fw_500 fs_sm lightblack bg-white position-absolute ms-4 nbr_btn "
                             href="#">3.5</a>
-                        <div class="position-absolute bottom-0 ps-4 opacity top_hover">
+                        <div class="position-absolute bottom-0 ps-4 ">
                             <p class="ff_Inter fw_600 fs_2xl white mb-0">Vientam</p>
                             <p class="ff_Inter fw_400 fs_sm white text-start">Worefall</p>
                         </div>
